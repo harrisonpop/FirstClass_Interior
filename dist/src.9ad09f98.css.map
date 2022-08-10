@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"src.9ad09f98.css","sourceRoot":"..\\src","sourcesContent":[".nav-link{\r\n    font-size: 17px;\r\n    color: white;\r\n}\r\n\r\n#nav-headinglinks{\r\n    font-size: 23px;\r\n}"]}
