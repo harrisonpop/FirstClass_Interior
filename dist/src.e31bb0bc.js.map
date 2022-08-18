@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["element","document","getElementById","console","log"],"mappings":"AAAA,IAAMA,OAAO,GAAGC,QAAQ,CAACC,cAAT,CAAwB,aAAxB,CAAhB;AAEAC,OAAO,CAACC,GAAR,CAAY,aAAZ","file":"src.e31bb0bc.js","sourceRoot":"..\\src","sourcesContent":["const element = document.getElementById(\"Contactinfo\");\r\n\r\nconsole.log('Hello World');\r\n  \r\n"]}
