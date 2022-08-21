@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="/src.9ad09f98.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
   <title>Captivate Interiors</title>
-<script src="/About_us.js"></script></head>
+</head>
 
 <body>
 
@@ -91,43 +91,22 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li>
-                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="/Webpage_redirects\Shop.html">mirrors</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="/Webpage_redirects\Shop.html">tables</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
-                      Submenu &raquo;
-                    </a>
-                    <ul class="dropdown-menu dropdown-submenu">
-                      <li>
-                        <a class="dropdown-item" href="#">Submenu item 1</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#">Submenu item 2</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                        <ul class="dropdown-menu dropdown-submenu">
-                          <li>
-                            <a class="dropdown-item" href="#">Multi level 1</a>
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="#">Multi level 2</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#">Submenu item 4</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#">Submenu item 5</a>
-                      </li>
-                    </ul>
+                    <a class="dropdown-item" href="/Webpage_redirects\Shop.html">wallpapers</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/Webpage_redirects\Shop.html">lights</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/Webpage_redirects\Shop.html">mattresses</a>
                   </li>
                 </ul>
-              </li>             
+              </li>              
             </ul>
           </div>
         </nav>
@@ -148,17 +127,18 @@
 
     <nav class="container" aria-label="Site menu">
       <nav class="row mt-5" aria-label="Site menu">
-        <nav class="col" aria-label="Site menu">
-          <h3> Contact Information: </h3><br>
-          <h5> Company Address: Shop 10, Green Gables Shopping Centre, Mairangi Bay, Auckland 0630</h5><br>
-          <h5> Company Contact Numer: +64 9 478 9997</h5><br>
-          <h5> Company Email Adress: info@captivateinteriors.co.nz.</h5><br>
-          <h5> Company Fax Number: 09 478 9997</h5><br>
+        <nav id="Contactright" onmouseover="Contactright()" class="col" aria-label="Site menu">
+          <h4 id="Contactinfo" type="button" onclick="Contactinfo_button()"> Contact Information: </h4><br>
+          <p> Company Address: Shop 10,<br> Green Gables Shopping Centre,<br> Mairangi Bay, Auckland 0630</p><br>
+          <p> Company Contact Numer: +64 9 478 9997</p><br>
+          <p> Company Email Adress: info@captivateinteriors.co.nz.</p><br>
+          <p> Company Fax Number: 09 478 9997</p><br>
         </nav>
+        <nav class="row" aria-label="Site menu">
           <div class="col-lg-8" aria-label="Site menu">
             <div class="padding-top-2x mt-2 hidden-lg-up"></div>
             <div class="table-responsive margin-bottom-2x">
-                <table class="table margin-bottom-none">
+                <table aria-describedby="mydesc" class="table margin-bottom-none">
                     <thead>
                         <tr>
                             <th>Date Submitted</th>
@@ -211,15 +191,141 @@
                     <button class="btn btn-outline-primary" type="submit">Submit Message</button>
                 </div>
             </form>
-        </div>
+          </div>
         </nav>
       </nav>
-    <br>
+    </nav>
+  <br>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
-    <script src="/src.e31bb0bc.js"></script>
+  <script>function Contactright() {
+  var init = document.getElementById("Contactright");
+  init.style.textAlign = "right";
+}
+
+function Contactinfo_button() {
+  var init = document.getElementById("Contactinfo");
+  init.style.color = "blue";
+  init.style.fontSize = "50px";
+}</script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script type="text/javascript" src="/src.e31bb0bc.js"></script>
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+  
+        <a href="https://www.facebook.com/">facebook </a><em class="bi bi-facebook"></em>
+  
+        <a href="https://twitter.com/">twitter </a><em class="bi bi-twitter"></em>
+  
+        <a href="https://www.instagram.com/">instagram </a><em class="bi bi-instagram"></em>
+  
+        <a href="https://www.linkedin.com/">linkedin </a><em class="bi bi-linkedin"></em>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+  
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <em class="fas fa-gem me-3"></em>Company name
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><em class="fas fa-home me-3"></em> New York, NY 10012, US</p>
+            <p>
+              <em class="fas fa-envelope me-3"></em>
+              info@example.com
+            </p>
+            <p><em class="fas fa-phone me-3"></em> + 01 234 567 88</p>
+            <p><em class="fas fa-print me-3"></em> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
 
 </body>
 </html>

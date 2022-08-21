@@ -118,8 +118,30 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"index.js":[function(require,module,exports) {
-var element = document.getElementById("Contactinfo");
-console.log('Hello World');
+function Mirrors() {
+  var init1 = document.getElementById("Mirrors-text");
+  init1.innerHTML = "Yes these mirrors are comfortable";
+}
+
+function Tables() {
+  var init2 = document.getElementById("Tables-text");
+  init2.innerHTML = "Yes these tables are comfortable";
+}
+
+function Wallpapers() {
+  var init3 = document.getElementById("Wallpapers-text");
+  init3.innerHTML = "Yes these wallpapers are comfortable";
+}
+
+function Lights() {
+  var init4 = document.getElementById("Lights-text");
+  init4.innerHTML = "Yes these lights are comfortable";
+}
+
+function Matresses() {
+  var init5 = document.getElementById("Mattress-text");
+  init5.innerHTML = "Yes these mattresses are comfortable";
+}
 },{}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -148,7 +170,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62156" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65509" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

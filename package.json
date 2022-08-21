@@ -1,7 +1,6 @@
 {
   "name": "WebPage-3",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "parcel ./src/index.html",
@@ -18,5 +17,14 @@
   },
   "devDependencies": {
     "sass": "^1.54.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harrisonpop/WebPage-3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/harrisonpop/WebPage-3/issues"
+  },
+  "homepage": "https://github.com/harrisonpop/WebPage-3#readme",
+  "description": ""
 }
