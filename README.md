@@ -1,9 +1,13 @@
 # FirstClass_Interior
 
 Project Lead: Subin Lee
+
 Designer: Harrison Popham
+
 Deverloper: Jolon Moris-Bentley
+
 Business Analyst: Jared equieron
+
 
 All files are combatable with VSCode and work with Node.js and live server.
 
